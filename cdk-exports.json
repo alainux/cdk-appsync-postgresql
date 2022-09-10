@@ -1,0 +1,7 @@
+{
+  "AppsyncCdkRdsStack": {
+    "AppSyncAPIURL": "XXX",
+    "AppSyncAPIKey": "XXX",
+    "ProjectRegion": "XXX"
+  }
+}

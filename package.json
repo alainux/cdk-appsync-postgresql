@@ -8,7 +8,8 @@
     "build": "tsc",
     "watch": "tsc -w",
     "test": "jest",
-    "cdk": "cdk"
+    "cdk": "cdk",
+    "app": "ts-node app/index.ts"
   },
   "devDependencies": {
     "@types/jest": "^27.5.2",
@@ -25,6 +26,7 @@
     "@aws-cdk/aws-ec2": "^1.172.0",
     "@aws-cdk/aws-lambda": "^1.172.0",
     "@aws-cdk/aws-rds": "^1.172.0",
+    "aws-amplify": "^4.3.35",
     "aws-cdk-lib": "2.41.0",
     "constructs": "^10.0.0",
     "source-map-support": "^0.5.21"
